@@ -1,10 +1,13 @@
 # https://pokeapi.co/
-# https://www.dataquest.io/blog/python-api-tutorial/
 
 import requests
 import json
 import re
 
+with open("sun&moon_pokemon.txt") as f:
+    pokemon_list = f.read().split('\n')
+
+pokemon_list[0] = "Bulbasaur"
 
 pokemon_json = {}
 
@@ -12,7 +15,8 @@ for pokemon in range(1, 803):
     r = requests.get(f"https://pokeapi.co/api/v2/pokemon/{pokemon}/").json()
     species = requests.get(r['species']['url']).json()
 
-    name = r['name'].capitalize()
+    name = pokemon_list[pokemon - 1]
+
     pokedex_number = r['id']
     types = list(reversed([typ['type']['name'] for typ in r['types']]))
     abilities = [ability['ability']['name'] for ability in r['abilities']]
@@ -38,8 +42,6 @@ for pokemon in range(1, 803):
                           'Moves': moves
                          }
     print(name)
-    
+
 with open("pokemon.json", "w") as f:
     json.dump(pokemon_json, f, indent=2)
-    
-#TODO: Add evolution chains
