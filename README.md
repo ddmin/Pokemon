@@ -4,7 +4,7 @@ A Pokemon class in addition to a Pokemon database created with the help from [Po
 Example of Pokedex:
 
 ```python
-from pokemon import pokedex
+from Pokemon import pokedex
 pokedex(25)
 ```
 
