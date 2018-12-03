@@ -1,4 +1,4 @@
-﻿Bulbasaur
+Bulbasaur
 Ivysaur
 Venusaur
 Charmander
@@ -17,8 +17,6 @@ Pidgey
 Pidgeotto
 Pidgeot
 Rattata
-Rattata
-Raticate
 Raticate
 Spearow
 Fearow
@@ -26,22 +24,17 @@ Ekans
 Arbok
 Pikachu
 Raichu
-Raichu
-Sandshrew
 Sandshrew
 Sandslash
-Sandslash
-Nidoran♀
+Nidoran-f
 Nidorina
 Nidoqueen
-Nidoran♂
+Nidoran-m
 Nidorino
 Nidoking
 Clefairy
 Clefable
 Vulpix
-Vulpix
-Ninetales
 Ninetales
 Jigglypuff
 Wigglytuff
@@ -55,12 +48,8 @@ Parasect
 Venonat
 Venomoth
 Diglett
-Diglett
-Dugtrio
 Dugtrio
 Meowth
-Meowth
-Persian
 Persian
 Psyduck
 Golduck
@@ -83,10 +72,7 @@ Victreebel
 Tentacool
 Tentacruel
 Geodude
-Geodude
 Graveler
-Graveler
-Golem
 Golem
 Ponyta
 Rapidash
@@ -94,14 +80,12 @@ Slowpoke
 Slowbro
 Magnemite
 Magneton
-Farfetch'd
+Farfetchd
 Doduo
 Dodrio
 Seel
 Dewgong
 Grimer
-Grimer
-Muk
 Muk
 Shellder
 Cloyster
@@ -117,9 +101,7 @@ Voltorb
 Electrode
 Exeggcute
 Exeggutor
-Exeggutor
 Cubone
-Marowak
 Marowak
 Hitmonlee
 Hitmonchan
@@ -137,7 +119,7 @@ Goldeen
 Seaking
 Staryu
 Starmie
-Mr. Mime
+Mr-mime
 Scyther
 Jynx
 Electabuzz
@@ -265,7 +247,7 @@ Larvitar
 Pupitar
 Tyranitar
 Lugia
-Ho-Oh
+Ho-oh
 Celebi
 Treecko
 Grovyle
@@ -367,9 +349,6 @@ Armaldo
 Feebas
 Milotic
 Castform
-Castform
-Castform
-Castform
 Kecleon
 Shuppet
 Banette
@@ -405,9 +384,6 @@ Groudon
 Rayquaza
 Jirachi
 Deoxys
-Deoxys
-Deoxys
-Deoxys
 Turtwig
 Grotle
 Torterra
@@ -434,10 +410,6 @@ Rampardos
 Shieldon
 Bastiodon
 Burmy
-Burmy
-Burmy
-Wormadam
-Wormadam
 Wormadam
 Mothim
 Combee
@@ -448,8 +420,6 @@ Floatzel
 Cherubi
 Cherrim
 Shellos
-Shellos
-Gastrodon
 Gastrodon
 Ambipom
 Drifloon
@@ -466,7 +436,7 @@ Skuntank
 Bronzor
 Bronzong
 Bonsly
-Mime Jr.
+Mime-jr
 Happiny
 Chatot
 Spiritomb
@@ -501,16 +471,11 @@ Leafeon
 Glaceon
 Gliscor
 Mamoswine
-Porygon-Z
+Porygon-z
 Gallade
 Probopass
 Dusknoir
 Froslass
-Rotom
-Rotom
-Rotom
-Rotom
-Rotom
 Rotom
 Uxie
 Mesprit
@@ -520,12 +485,10 @@ Palkia
 Heatran
 Regigigas
 Giratina
-Giratina
 Cresselia
 Phione
 Manaphy
 Darkrai
-Shaymin
 Shaymin
 Arceus
 Victini
@@ -556,7 +519,6 @@ Musharna
 Pidove
 Tranquill
 Unfezant
-Unfezant
 Blitzle
 Zebstrika
 Roggenrola
@@ -586,12 +548,10 @@ Whimsicott
 Petilil
 Lilligant
 Basculin
-Basculin
 Sandile
 Krokorok
 Krookodile
 Darumaka
-Darmanitan
 Darmanitan
 Maractus
 Dwebble
@@ -630,8 +590,6 @@ Escavalier
 Foongus
 Amoonguss
 Frillish
-Frillish
-Jellicent
 Jellicent
 Alomomola
 Joltik
@@ -683,11 +641,10 @@ Virizion
 Tornadus
 Thundurus
 Reshiram
-Zekrom 
+Zekrom
 Landorus
 Kyurem
 Keldeo
-Meloetta
 Meloetta
 Genesect
 Chespin
@@ -709,7 +666,7 @@ Spewpa
 Vivillon
 Litleo
 Pyroar
-Flabébé
+Flabebe
 Floette
 Florges
 Skiddo
@@ -761,7 +718,6 @@ Yveltal
 Zygarde
 Diancie
 Hoopa
-Hoopa
 Volcanion
 Rowlet
 Dartrix
@@ -782,9 +738,6 @@ Charjabug
 Vikavolt
 Crabrawler
 Crabominable
-Oricorio
-Oricorio
-Oricorio
 Oricorio
 Cutiefly
 Ribombee
@@ -816,7 +769,7 @@ Golisopod
 Sandygast
 Palossand
 Pyukumuku
-Type: Null
+Type-null
 Silvally
 Minior
 Komala
@@ -829,10 +782,10 @@ Dhelmise
 Jangmo-o
 Hakamo-o
 Kommo-o
-Tapu Koko
-Tapu Lele
-Tapu Bulu
-Tapu Fini
+Tapu-koko
+Tapu-lele
+Tapu-bulu
+Tapu-fini
 Cosmog
 Cosmoem
 Solgaleo
