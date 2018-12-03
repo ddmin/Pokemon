@@ -1,5 +1,5 @@
 # Pokemon
-Pokemon database written in Python with help from [PokeAPI](https://pokeapi.co/).
+A Pokemon class in addition to a Pokemon database created with the help from [PokeAPI](https://pokeapi.co/).
 
 Example of Pokedex:
 
@@ -8,4 +8,4 @@ from pokemon import pokedex
 pokedex(25)
 ```
 
-![alt text](https://github.com/ddmin/pokemon/blob/master/pokedex_screengrab.png)
+![Pokedex example](https://github.com/ddmin/pokemon/blob/master/pokedex_screengrab.png)
