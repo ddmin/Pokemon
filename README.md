@@ -8,4 +8,4 @@ from pokemon import pokedex
 pokedex(25)
 ```
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/ddmin/pokemon/blob/master/pokedex_screengrab.png)
