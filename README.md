@@ -1,5 +1,5 @@
 # Pokemon
-Pokemon database written in Python
+Pokemon database written in Python with help from [PokeAPI](https://pokeapi.co/).
 
 Example of Pokedex:
 
