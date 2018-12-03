@@ -1,6 +1,9 @@
 # Pokemon
 A Pokemon class in addition to a Pokemon database created with the help from [PokeAPI](https://pokeapi.co/).
 
+**Note: ** PokeAPI only supports Pokemon up to Pokemon Sun and Moon at the moment. 
+
+
 Example of Pokedex:
 
 ```python
