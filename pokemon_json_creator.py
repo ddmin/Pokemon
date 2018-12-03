@@ -3,48 +3,43 @@
 
 import requests
 import json
-import random
 import re
 
 
-def pokedex(pokemon):
+pokemon_json = {}
+
+for pokemon in range(1, 803):
     r = requests.get(f"https://pokeapi.co/api/v2/pokemon/{pokemon}/").json()
-
-    print('{} (#{})\n'.format(r['name'].capitalize(), r['id']), end='')
-
-    for type in r['types']:
-        print(type['type']['name'].capitalize(), end='')
-        if type == r['types'][0] and len(r['types']) == 2:
-            print('/', end='')
-    print()
-    print()
-
-    print("Ability:")
-    abilities = [ability['ability']['name'] for ability in r['abilities']]
-    print(random.choice(abilities).capitalize())
-
-    print('\nBase experience: {}'.format(r['base_experience']))
-
-    print('\nHeight: {} m\n'.format(r['height']/10))
-
     species = requests.get(r['species']['url']).json()
 
-    print('Pokedex entry:')
+    name = r['name'].capitalize()
+    pokedex_number = r['id']
+    types = list(reversed([typ['type']['name'] for typ in r['types']]))
+    abilities = [ability['ability']['name'] for ability in r['abilities']]
+    base_experience = r['base_experience']
+    height = r['height']/10
+
     entries = [fl['flavor_text'] for fl in species['flavor_text_entries'] if fl['language']['name'] == 'en']
     p = re.compile(r'[\n]')
     entries = list(set(map(lambda x: re.sub(p, ' ', x), entries)))
 
-    print(random.choice(entries))
-    print()
+    stats = {stat['stat']['name']: stat['base_stat'] for stat in r['stats']}
 
-    for stat in r['stats']:
-        print('{}: {}'.format(stat['stat']['name'].capitalize(), stat['base_stat']))
-    print()
-
-    print("Moveset:")
     moves = [move['move']['name'] for move in r['moves']]
-    for n, move in enumerate(random.sample(moves, 4)):
-        print('{}. {}'.format(n+1, move.capitalize()))
 
-pokemon = random.randint(1, 803)
-pokedex(pokemon)
+    pokemon_json[name] = {
+                          'Pokedex Number': pokedex_number,
+                          'Type': types,
+                          'Abilities': abilities,
+                          'Experience': base_experience,
+                          'Height': height,
+                          'Flavor Text': entries,
+                          'Stats': stats,
+                          'Moves': moves
+                         }
+    print(name)
+    
+with open("pokemon.json", "w") as f:
+    json.dump(pokemon_json, f, indent=2)
+    
+#TODO: Add evolution chains
