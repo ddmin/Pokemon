@@ -2,5 +2,10 @@
 Pokemon database written in Python
 
 Example of Pokedex:
-'''pokedex(25)'''
+
+```python
+from pokemon import pokedex
+pokedex(25)
+```
+
 ![alt text](http://url/to/img.png)
