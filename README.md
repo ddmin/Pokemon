@@ -7,8 +7,8 @@ A Pokemon class in addition to a Pokemon database created with the help from [Po
 Example of Pokedex:
 
 ```python
-from Pokemon import pokedex
-pokedex(25)
+squirtle = Pokemon("Pikachu", 5, ability="Static", moves=['thunderbolt', 'surf', 'quick-attack', 'thunder'])
+print(squirtle.pokedex())
 ```
 
 ![Pokedex example](https://github.com/ddmin/pokemon/blob/master/pokedex_screengrab.png)
