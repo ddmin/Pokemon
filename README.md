@@ -11,4 +11,4 @@ pikachu = Pokemon("Pikachu", 5, ability="Static", moves=['thunderbolt', 'surf', 
 print(pikachu.pokedex())
 ```
 
-![Pokedex example](https://github.com/ddmin/Pokemon/blob/master/pokedex_screengrab.png)
+
