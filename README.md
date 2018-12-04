@@ -10,3 +10,5 @@ Example of Pokedex:
 pikachu = Pokemon("Pikachu", 5, ability="Static", moves=['thunderbolt', 'surf', 'quick-attack', 'thunder'])
 print(pikachu.pokedex())
 ```
+
+![Pokedex example](https://github.com/ddmin/Pokemon/blob/master/pokedex_screengrab.png)
