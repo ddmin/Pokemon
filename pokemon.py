@@ -3,7 +3,7 @@ import random
 
 class Pokemon:
     def __init__(self, species, level=1, ability="None", moves=[]):
-        with open("pokemon.json") as f:
+        with open("./Lists of Pokemon/pokemon.json") as f:
             info = json.load(f)
 
         self.info = info[species]
@@ -59,11 +59,11 @@ class Pokemon:
     def pokedex(self):
         dex = ''
         dex += self.species + ' ' + f'(#{self.number})'
-        
+
         dex += '\n' + self.type[0].capitalize()
         if len(self.type) == 2:
             dex += '/' + self.type[1].capitalize()
-        
+
         dex += '\n\n' + f'Ability: {self.ability}'
         dex += '\n\n' + f'Height: {self.height} m'
         dex += '\n\n' + random.choice(self.flavor_text)
